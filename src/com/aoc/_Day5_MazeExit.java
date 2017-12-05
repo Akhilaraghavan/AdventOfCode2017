@@ -18,7 +18,6 @@ public class _Day5_MazeExit {
 				steps++;
 				currentIndex += instr;
 			}
-			System.out.println(currentIndex);
 			System.out.println(steps);
 		} catch (IOException e) {
 			e.printStackTrace();
