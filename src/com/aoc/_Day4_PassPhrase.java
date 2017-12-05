@@ -32,7 +32,7 @@ public class _Day4_PassPhrase {
 				for (String str : split) {
 					if (words.contains(str)) {
 						return false;
-					} else if (!words.isEmpty() && isRotated(Arrays.asList(split), str, index)) {
+					} else if (isRotated(Arrays.asList(split), str, index)) {
 						return false;
 					}
 					words.add(str);
